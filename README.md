@@ -14,4 +14,9 @@ Default output format [None]:
 $ aws s3 ls
 (your backet will be shown)
 ```
+# setup cron
+```
+$ crontab -e
+10 3 * * * sh /var/www/backup/backup.sh
+```
 
